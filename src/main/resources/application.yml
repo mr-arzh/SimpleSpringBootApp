@@ -1,7 +1,8 @@
 spring:
   application:
-  name: ms-human
+  name: ms-countries
   datasource:
     url: jdbc:mysql://localhost:3306
     username: root
     password: root
+    driver-class-name: com.mysql.jdbc.Driver
